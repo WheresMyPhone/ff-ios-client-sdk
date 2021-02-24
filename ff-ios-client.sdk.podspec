@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ff-ios-client.sdk"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "Testing CocoaPods integration into ff-ios-client.sdk."
   spec.swift_version = "5.0"
 
@@ -93,9 +93,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "ff-ios-client-sdk", "ff-ios-client-sdk/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "ff-ios-client-sdk/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
