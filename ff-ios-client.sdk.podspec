@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ff-ios-client.sdk"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.6"
   spec.summary      = "Testing CocoaPods integration into ff-ios-client.sdk."
   spec.swift_version = "5.0"
 
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ff-ios-client-sdk", "ff-ios-client-sdk/*.swift"
+  spec.source_files  = "ff-ios-client-sdk", "ff-ios-client-sdk/**/*.swift"
   # spec.exclude_files = "Classes/Exclude"
 
   spec.public_header_files = "ff-ios-client-sdk/*.h"
