@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "ff-ios-client-sdk"
+  spec.name         = "FFiOSClientSDK"
   spec.version      = "0.0.8"
-  spec.summary      = "Testing CocoaPods integration into ff-ios-client-sdk."
+  spec.summary      = "Testing CocoaPods integration into FFiOSClientSDK."
   spec.swift_version = "5.0"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-		This is only to enable integration of ff-ios-client-sdk into some example apps
+		This is only to enable integration of FFiOSClientSDK into some example apps
                    DESC
 
   spec.homepage     = "https://github.com/Yoorque"
