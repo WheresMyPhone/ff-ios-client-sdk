@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint ff-ios-client.sdk.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ff-ios-client-sdk.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "ff-ios-client.sdk"
-  spec.version      = "0.0.7"
-  spec.summary      = "Testing CocoaPods integration into ff-ios-client.sdk."
+  spec.name         = "ff-ios-client-sdk"
+  spec.version      = "0.0.8"
+  spec.summary      = "Testing CocoaPods integration into ff-ios-client-sdk."
   spec.swift_version = "5.0"
 
   # This description is used to generate tags and improve search results.
