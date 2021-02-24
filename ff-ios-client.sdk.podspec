@@ -17,7 +17,8 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ff-ios-client.sdk"
   spec.version      = "0.0.1"
-  spec.summary      = "Testin CocoaPods integration ff-ios-client.sdk."
+  spec.summary      = "Testing CocoaPods integration into ff-ios-client.sdk."
+  spec.swift_version = "5.0"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +26,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-	This Podspec is to be used as a standalone version of ff-ios-client-sdk library distribution example
+		This is only to enable integration of ff-ios-client-sdk into some example apps
                    DESC
 
-  spec.homepage     = "https://github.com/Yoorque/ff-ios-client-sdk.git"
+  spec.homepage     = "https://github.com/Yoorque"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +40,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,10 +54,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "" => "" }
-  # Or just: spec.author    = ""
-  # spec.authors            = { "" => "" }
-  # spec.social_media_url   = "https://twitter.com/"
+  spec.author             = { "Dusan Juranovic" => "dusan.juranovic@gmail.com" }
+  # Or just: spec.author    = "Dusan Juranovic"
+  # spec.authors            = { "Dusan Juranovic" => "dusan.juranovic@gmail.com" }
+  # spec.social_media_url   = "https://twitter.com/Dusan Juranovic"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +66,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/ff-ios-client.sdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Yoorque/ff-ios-client-sdk.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "ff-ios-client-sdk", "ff-ios-client-sdk/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
