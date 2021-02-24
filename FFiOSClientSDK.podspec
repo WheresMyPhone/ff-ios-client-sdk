@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FFiOSClientSDK"
-  spec.version      = "0.0.8"
+  spec.version      = "0.1.0"
   spec.summary      = "Testing CocoaPods integration into FFiOSClientSDK."
   spec.swift_version = "5.0"
 
