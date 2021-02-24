@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ff-ios-client.sdk"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Testing CocoaPods integration into ff-ios-client.sdk."
   spec.swift_version = "5.0"
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Yoorque/ff-ios-client-sdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Yoorque/ff-ios-client-sdk.git", :branch => "master", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
