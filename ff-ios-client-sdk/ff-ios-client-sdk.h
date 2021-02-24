@@ -12,7 +12,7 @@ FOUNDATION_EXPORT double CFiOSClientVersionNumber;
 
 //! Project version string for CFiOSClient.
 FOUNDATION_EXPORT const unsigned char CFiOSClientVersionString[];
-#import <ff-ios-client-sdk/ff-ios-client-sdk.h>
+#import "ff-ios-client-sdk.h"
 // In this header, you should import all the public headers of your framework using statements like #import <ff-ios-client-sdk/PublicHeader.h>
 
 
